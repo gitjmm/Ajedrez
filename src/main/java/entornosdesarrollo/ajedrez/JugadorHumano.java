@@ -41,13 +41,18 @@ public class JugadorHumano extends Jugador {
      * @param nombre 
      * @param password
      */
-    public void registrarse(String nombre, String password) {
+    public boolean registrarse(String nombre, String password) {
         // TODO implement here
+        boolean registro = true;
         this.nombre = nombre;
         //Chequeo de password: longitud (se puede usar otro)
         if (password.length() >=8)
             this.password = password;
-        else System.out.println("Registro incorrecto");
+        else{
+            System.out.println("Registro incorrecto");
+            registro = false;
+        }
+        return registro;
     }
 
     /**
