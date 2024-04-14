@@ -18,11 +18,11 @@ public class Tablero extends InterfazGrafica {
     private String caracteristicas;
 
     /**
-     * @return
+     * @return null
      */
     public String getCaracteristicas() {
         // TODO implement here
-        return null;
+        return caracteristicas;
     }
 
     /**
@@ -30,6 +30,7 @@ public class Tablero extends InterfazGrafica {
      */
     public void setCaracteristicas(String value) {
         // TODO implement here
+        caracteristicas = value;
     }
 
 }

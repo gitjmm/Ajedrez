@@ -15,6 +15,12 @@ public class ControlJuego {
         tiempo_b = 0;
     }
     
+    /**
+     *
+     * @param tiempo_limite
+     * @param tiempo_a
+     * @param tiempo_b
+     */
     public ControlJuego(int tiempo_limite,int tiempo_a, int tiempo_b) {
         this.tiempo_limite = tiempo_limite;
         this.tiempo_a = tiempo_a;
@@ -93,6 +99,8 @@ public class ControlJuego {
 
     /**
      * 
+     * @param tiempo_limite
+     * @param tiempo_limite
      */
     public void iniciarPartida(int tiempo_limite) {
         // TODO implement here

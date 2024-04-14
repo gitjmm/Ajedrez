@@ -15,6 +15,11 @@ public class JugadorHumano extends Jugador {
         this.preferencias = "";
     }
     
+    /**
+     *
+     * @param nombre
+     * @param password
+     */
     public JugadorHumano(String nombre, String password) {
         this.nombre = nombre;
         this.password = password;
@@ -40,6 +45,7 @@ public class JugadorHumano extends Jugador {
     /**
      * @param nombre 
      * @param password
+     * @return 
      */
     public boolean registrarse(String nombre, String password) {
         // TODO implement here

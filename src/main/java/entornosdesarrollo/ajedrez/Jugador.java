@@ -40,6 +40,7 @@ public class Jugador {
 
     /**
      * @param pieza
+     * @return 
      */
     public boolean eliminaPieza(Pieza pieza) {
         // TODO implement here
