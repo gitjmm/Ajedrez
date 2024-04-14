@@ -100,7 +100,6 @@ public class ControlJuego {
     /**
      * 
      * @param tiempo_limite
-     * @param tiempo_limite
      */
     public void iniciarPartida(int tiempo_limite) {
         // TODO implement here
